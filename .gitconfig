@@ -1,0 +1,22 @@
+[user]
+  name = Kolyazov.KA
+  email = kolyazov02@mail.ru
+[alias]
+  st = status
+  ch = checkout
+  chp = cherry-pick
+  br = branch
+  acp = !git add . && git commit --amend --no-edit && git push --force
+  last = log -1 HEAD
+  cm = commit -m
+  npush = push --set-upstream origin
+  pf = push --force
+  aa = add .
+  can = commit --amend --no-edit
+  psu = push --set-upstream origin
+  gpsu = !git push --set-upstream origin $(git branch --show-current)
+	sno = show --name-only
+[credential "https://git.devzone.local"]
+  provider = generic
+[core]
+	editor = nvim
